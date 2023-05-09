@@ -1,7 +1,7 @@
 <div>
     <!--Hero-->
     <div class="pt-24">
-        <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+        <div class="container max-w-5xl px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
           <!--Left Col-->
           <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
             <p class="uppercase tracking-loose w-full">Pengadilan Agama Waingapu</p>
@@ -18,8 +18,10 @@
             </a>
           </div>
           <!--Right Col-->
-          <div class="w-full md:w-3/5 py-6 text-right" style="text-align: right">
-            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_u8o7BL.json"  background="transparent"  speed="1"  style="width: 65%; height: 65%;"  loop  autoplay></lottie-player>
+          <div class="w-full md:w-3/5 py-6">
+            <div calss="content-right">
+              <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_u8o7BL.json"  background="transparent"  speed="1"  style="width: 65%; height: 65%;"  loop  autoplay></lottie-player>
+            </div>
           </div>
         </div>
       </div>
