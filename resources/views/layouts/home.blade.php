@@ -43,7 +43,7 @@
               <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#tentang_app">Tentang Aplikasi</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#input_data">Input Data</a>
+              <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#input_data">Pendaftaran</a>
             </li>
             <li class="mr-3">
               <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#kontak">Kontak</a>

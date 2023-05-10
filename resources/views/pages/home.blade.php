@@ -1,7 +1,7 @@
 <div>
     <!--Hero-->
     <div class="pt-24">
-        <div class="container max-w-5xl px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+        <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
           <!--Left Col-->
           <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
             <p class="uppercase tracking-loose w-full">Pengadilan Agama Waingapu</p>
@@ -235,78 +235,84 @@
       <section class="bg-white border-b py-8" id="input_data">
         <div class="container mx-auto flex flex-wrap pt-4 pb-12">
           <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-            Input Data
+            Pendaftaran
           </h2>
           <div class="w-full mb-4">
             <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
           </div>
-          <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-            <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-                <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-                  xGETTING STARTED
-                </p>
-                <div class="w-full font-bold text-xl text-gray-800 px-6">
-                  Lorem ipsum dolor sit amet.
+          <br><br>
+          <div class="max-w-screen-md mx-auto p-5">
+            <form class="w-full">
+              <div class="flex flex-wrap -mx-3 mb-6">
+                <div class="w-full px-3">
+                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                    Nama Lengkap
+                  </label>
+                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Nama Lengkap">
                 </div>
-                <p class="text-gray-800 text-base px-6 mb-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                </p>
-              </a>
-            </div>
-            <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div class="flex items-center justify-start">
-                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Action
-                </button>
               </div>
-            </div>
-          </div>
-          <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-            <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-                <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-                  xGETTING STARTED
-                </p>
-                <div class="w-full font-bold text-xl text-gray-800 px-6">
-                  Lorem ipsum dolor sit amet.
+              <div class="flex flex-wrap -mx-3 mb-6">
+                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                    Nomor KTP
+                  </label>
+                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Nomor KTP">
                 </div>
-                <p class="text-gray-800 text-base px-6 mb-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                </p>
-              </a>
-            </div>
-            <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+                <div class="w-full md:w-1/2 px-3">
+                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                    Nomor Handphone
+                  </label>
+                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Nomor Handphone">
+                </div>
+              </div>
+              <div class="flex flex-wrap -mx-3 mb-6">
+                <div class="w-full px-3">
+                  <label for="country" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Kecamatan</label>
+                  <div class="mt-2">
+                    <select id="country" name="country" autocomplete="country-name" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                      <option>Kota Waingapu</option>
+                      <option>Umalulu</option>
+                      <option>Lewa</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-wrap -mx-3 mb-6">
+                <div class="w-full px-3">
+                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                    Alamat Lengkap
+                  </label>
+                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-email" type="email" placeholder="Alamat lengkap">
+                </div>
+              </div>
+              <div class="flex flex-wrap -mx-3 mb-6">
+                <div class="w-full px-3">
+                  <label for="country" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Jenis Perkara</label>
+                  <div class="mt-2">
+                    <select id="country" name="country" autocomplete="country-name" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                      <option>Cerai Gugat</option>
+                      <option>Cerai Talak</option>
+                      <option>Itsbat Nikah</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-wrap -mx-3 mb-6">
+                <div class="w-full px-3">
+                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                    Alasan / Keterangan
+                  </label>
+                  <textarea rows="0" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">                  
+                  </textarea>
+                </div>                  
+              </div>
               <div class="flex items-center justify-center">
-                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Action
+                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" type="submit">
+                  Simpan
                 </button>
               </div>
-            </div>
+            </form>
           </div>
-          <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-            <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <a href="#" class="flex flex-wrap no-underline hover:no-underline">
-                <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-                  xGETTING STARTED
-                </p>
-                <div class="w-full font-bold text-xl text-gray-800 px-6">
-                  Lorem ipsum dolor sit amet.
-                </div>
-                <p class="text-gray-800 text-base px-6 mb-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                </p>
-              </a>
-            </div>
-            <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div class="flex items-center justify-end">
-                <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                  Action
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
       <section class="bg-gray-100 py-8" id="kontak">
         <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800">
@@ -316,73 +322,58 @@
           <div class="w-full mb-4">
             <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
           </div>
-          <div class="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
-            <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
-              <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
-                <div class="p-8 text-3xl font-bold text-center border-b-4">
-                  Free
-                </div>
-                <ul class="w-full text-center text-sm">
-                  <li class="border-b py-4">Thing</li>
-                  <li class="border-b py-4">Thing</li>
-                  <li class="border-b py-4">Thing</li>
-                </ul>
-              </div>
-              <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                <div class="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                  £0
-                  <span class="text-base">for one user</span>
-                </div>
-                <div class="flex items-center justify-center">
-                  <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                    Sign Up
-                  </button>
+          <style>
+            .map-container-2 {
+              height: 500px;
+            }
+          </style>
+          <div class="block rounded-lg shadow-lg bg-white">
+            <div class="flex flex-wrap items-center">
+              <div class="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12">
+                <div class="map-container-2 w-full">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15733.003545773634!2d120.2556533!3d-9.6595916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2c4c9b599d786bd3%3A0x3aece929bb01ce5e!2sPengadilan%20Agama%20Waingapu!5e0!3m2!1sid!2sid!4v1683689301366!5m2!1sid!2sid" class="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" frameborder="0" allowfullscreen></iframe>
                 </div>
               </div>
-            </div>
-            <div class="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
-              <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-                <div class="w-full p-8 text-3xl font-bold text-center">Basic</div>
-                <div class="h-1 w-full gradient my-0 py-0 rounded-t"></div>
-                <ul class="w-full text-center text-base font-bold">
-                  <li class="border-b py-4">Thing</li>
-                  <li class="border-b py-4">Thing</li>
-                  <li class="border-b py-4">Thing</li>
-                  <li class="border-b py-4">Thing</li>
-                </ul>
-              </div>
-              <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                <div class="w-full pt-6 text-4xl font-bold text-center">
-                  £x.99
-                  <span class="text-base">/ per user</span>
-                </div>
-                <div class="flex items-center justify-center">
-                  <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                    Sign Up
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
-              <div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
-                <div class="p-8 text-3xl font-bold text-center border-b-4">
-                  Pro
-                </div>
-                <ul class="w-full text-center text-sm">
-                  <li class="border-b py-4">Thing</li>
-                  <li class="border-b py-4">Thing</li>
-                  <li class="border-b py-4">Thing</li>
-                </ul>
-              </div>
-              <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-                <div class="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                  £x.99
-                  <span class="text-base">/ per user</span>
-                </div>
-                <div class="flex items-center justify-center">
-                  <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                    Sign Up
-                  </button>
+              <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
+                <div class="relative container px-4 mx-auto">
+                  <div class="flex flex-wrap justify-center -mx-4">
+                    <div class="w-full md:w-1/2 lg:w-auto px-4 xl:px-10 mb-10 md:mb-0" style="padding: 3%">
+                      <div class="max-w-sm mx-auto h-full py-8 px-6 bg-white border border-gray-200 rounded-5xl">
+                        <div class="max-w-2xs mx-auto text-center">
+                          <img class="block mx-auto mb-3" src="{{ asset('frontend/email.png') }}" style="width: 100px; height: 100px;" alt="">
+                          <h5 class="text-2xl font-bold text-gray-900 mb-3">Email</h5>
+                          <p class="text-gray-500 mb-3">Hubungi kami untuk informasi lebih lanjut, kami akan bantu secepatnya</p>
+                          <span class="block text-sm text-orange-900 mb-8"><h5 class="text-2xl font-bold text-gray-900 mb-3">pawaingapu@gmail.com</h5></span>
+                          <a class="relative group inline-block text-white font-semibold bg-orange-900 rounded-full overflow-hidden" href="mailto:pawaingapu@gmail.com">
+                            <div class="absolute top-0 right-full w-full h-full bg-gray-900 transform group-hover:translate-x-full group-hover:scale-102 transition duration-500"></div>
+                            <div class="flex items-center justify-center">
+                              <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" type="submit">
+                                Hubungi
+                              </button>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-full md:w-1/2 lg:w-auto px-4 xl:px-10" style="padding: 3%">
+                      <div class="max-w-sm mx-auto h-full py-8 px-6 bg-white border border-gray-200 rounded-5xl">
+                        <div class="max-w-2xs mx-auto text-center">
+                          <img class="block mx-auto mb-3" src="{{ asset('frontend/phone.png') }}" style="width: 100px; height: 100px;" alt="">
+                          <h5 class="text-2xl font-bold text-gray-900 mb-3">Petugas PTSP</h5>
+                          <p class="text-gray-500 mb-3">Hubungi kami untuk informasi lebih lanjut, kami akan bantu secepatnya</p>
+                          <span class="block text-sm text-orange-900 mb-8"><h5 class="text-2xl font-bold text-gray-900 mb-3">+62 813 5807 2209</h5></span>
+                          <a class="relative group inline-block text-white font-semibold bg-orange-900 rounded-full overflow-hidden" href="https://bit.ly/wa-pawaingapu">
+                            <div class="absolute top-0 right-full w-full h-full bg-gray-900 transform group-hover:translate-x-full group-hover:scale-102 transition duration-500"></div>
+                            <div class="flex items-center justify-center">
+                              <button class="mx-auto lg:mx-2 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" type="submit">
+                                Hubungi
+                              </button>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -393,7 +384,7 @@
       <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
           <g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
-            <g class="wave" fill="#f8fafc">
+            <g class="wave" fill="#f3f4f6">
               <path
                 d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"
               ></path>
